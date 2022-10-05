@@ -7,90 +7,73 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<style>
-    #wrapper {
-        width: 100%;
-        height: 200px;
-        background-image: url("lake5.jpeg");
-        background-repeat: no-repeat;
-        background-
-    }
+<link rel="stylesheet" href="/Devin-s-project-website-1/Assests/stylesheet/styles">
 
-    #header {
-        text-align: center;
-        height100px;
-        line-height: 100px; 
-        color: white;
-        font-family: Calibri;
-    }
-    #menu {
-        width:100%;
-        height: 90px;
-        border: 1px solid black;
-        text-align: center;
-        line-height: 90px;
-        font-family: Calibri;
-        font-weight: bold;
-        font-size: large;       
-    }
-    #home {
-        height:90px;
-        width: 33%;
-        float: left;
-        color: black;
-        border: 1px solid black;
-    }
-    #aboutme {
-        height:90px;
-        width: 33%;
-        float: left;
-        color: green;
-        border: 1px solid black;
-    }
-    #contactme {
-        height:90px;
-        width: 33%;
-        float: left;
-        color: green;
-        border: 1px solid black;
-    }
-    #Devin {
-        height:100px;
-        width:100px;
-        float: left;
-        
-    }
-    #paragraph {
-        padding-left: 10px;
-        height: 100%; 
+<style>
+
+    .navbar {
+        margin: auto;
+        transform: translateY(-50px); 
         width: 100%;
-        border: 1px solid black;
-        text-align: center;
-    
+          
     }
+    .body {
+        background-color: lightblue;
+      
+    }
+   
+    .header {
+        font-size: 50pt;
+        padding-left: 20px;
+        background-color: white;
+        height: 88px;
+        font-family: cursive;
+        color: white;
+    }
+    .nav-pills .nav-link.active {
+  background-color: lightblue;
+  color: black;
+  
+}
+.nav-pills a{
+color:black;
+
+}
+
+.title { 
+    font-size: 50pt;
+        padding-left: 20px;
+        height: 88px;
+        font-family: cursive;
+        color: black; 
+        text-align: center;
+}
 </style>
 </head>
-<body>
-    <div id="wrapper">
-    <h1 id="header">Devin Douglas's Portfolio</h1>
+<body class="body">
+    <div class="header">
+       
+            <p>About</p>
+        <div class="navbar" style="text-align:center;">
+        <nav class="navbar navbar-light" style="font-size: 20pt">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactme.html">Contact Me</a>
+                </li>
+             </ul>
+        </nav> 
+        </div>
+   
+    </div>
 
-<nav id="menu">
-<ul>
-    <a href="index.html" id="home">Home</a>
-    <a href="aboutme.html" id="aboutme">About Me</a>
-    <a href="contactme.html" id="contactme">Contact Me</a>
- </ul>
 
-</nav>    
-</div>
+<h1 class="title">Devin's Portfolio</h1>
 
-<div id="p">
-    <img src="Devin.jpeg" id="Devin">
-    <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit ligula pretium odio accumsan tempus. Donec est mi, vulputate nec rutrum vitae, vestibulum eu urna. Aliquam vel arcu vel justo euismod luctus sollicitudin scelerisque arcu. Integer gravida nibh ac leo posuere hendrerit. Ut pretium tristique aliquet. Proin congue, leo ut convallis tincidunt, lacus lacus ultricies ante, non fermentum ligula nisi et dolor. Nulla imperdiet massa eget urna mattis, vel sagittis nibh dictum. Aliquam id consequat risus. In hac habitasse platea dictumst. Mauris tortor turpis, sollicitudin eget dignissim et, mollis a neque. Mauris ligula odio, blandit vitae leo at, cursus porttitor tellus. In cursus elit lectus, id suscipit est cursus et. Curabitur semper nisi congue, pharetra felis eu, interdum velit. Morbi commodo vulputate lectus, vitae luctus nibh ultrices vitae.
-
-        Donec lacus augue, tempor vitae convallis in, eleifend id lectus. Phasellus consequat velit ut justo maximus, scelerisque pulvinar orci ultrices. Sed non ligula quis nulla rutrum gravida. Morbi et vehicula nunc. Donec aliquet ipsum risus, ut gravida augue luctus a. Nam molestie placerat ex et porta. Etiam at tellus lectus. Mauris tincidunt ultricies sapien, nec volutpat mauris tincidunt in.</p>
-
-
-</div>
 </body>
 </html>

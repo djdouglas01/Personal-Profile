@@ -10,7 +10,7 @@
 
 <style>
 
-    #paragraph {
+    .paragraph {
         height: 100%;
         width: 500px;
         margin: auto;
@@ -19,6 +19,7 @@
         font-family: cursive;
         font-size: larger;
         background-color: white;
+        border: 1px solid black;
 
     }
     .navbar {
@@ -27,21 +28,21 @@
         width: 100%;
           
     }
-    #body {
+    .body {
         background-color: lightblue;
       
     }
-    #pic {
+    .pic {
         height: 400px;
         width: 400px;
         float: left;
         padding: 50px;
-        position: absolute;
+        position: fixed;
         transform: translate(0px,-467px);
 
     }
     
-    #title {
+    .title {
         font-size: 50pt;
         padding-left: 20px;
         background-color: white;
@@ -61,9 +62,9 @@ color:black;
 
 </style>
 </head>
-<body id="body">
-<div id="header">
-    <div id="title">
+<body class="body">
+<div class="header">
+    <div class="title">
         <p>About</p>
     <div class="navbar" style="text-align:center;">
     <nav class="navbar navbar-light" style="font-size: 20pt">
@@ -84,7 +85,7 @@ color:black;
 </div>
 <br><br>
 
-<div id="paragraph">
+<div class="paragraph">
     <ul style="list-style: none;">
    <li>My name is Devin Douglas</li><br>
    <li>Aspiring full stack web developer</li><br>
@@ -101,6 +102,6 @@ color:black;
    
 </ul>
 </div>
- <img src="Devin.jpeg" id="pic">
+ <img src="Devin.jpeg" class="pic">
 </body>
 </html>
