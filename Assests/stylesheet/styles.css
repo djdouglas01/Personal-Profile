@@ -1,0 +1,94 @@
+
+.paragraph {
+        height: 100%;
+        width: 500px;
+        margin: auto;
+        list-style: none;
+        padding: 10px;
+        font-family: cursive;
+        font-size: larger;
+        background-color: white;
+        border: 1px solid black;
+
+    }
+
+.navbar {
+        margin: auto;
+        transform: translateY(-50px); 
+        width: 100%;
+          
+    }
+
+.body {
+        background-color: lightblue;
+    }
+
+.pic {
+        height: 400px;
+        width: 400px;
+        float: left;
+        padding: 50px;
+        position: fixed;
+        transform: translate(0px,-467px);
+
+    }
+    
+.title {
+        font-size: 50pt;
+        padding-left: 20px;
+        background-color: white;
+        height: 88px;
+        font-family: cursive;
+        color: white;
+    }
+    
+.nav-pills .nav-link.active {
+        background-color: lightblue;
+        color: black;
+  
+    }
+
+.nav-pills a {
+        color:black;
+
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: black;
+        text-align: center;
+      }
+.form {
+        height: 500px;
+        width: 500px;
+        margin: auto;
+        list-style: none;
+        padding: 10px;
+        font-family: cursive;
+        font-size: larger;
+        background-color: white;
+        transform: translateY(50px);
+        float: center;
+        border: 1px solid black; 
+        text-align: center;
+}
+
+.heading { 
+    font-size: 50pt;
+        padding-left: 20px;
+        height: 88px;
+        font-family: cursive;
+        color: black; 
+        text-align: center;
+}
+.header {
+    font-size: 50pt;
+    padding-left: 20px;
+    background-color: white;
+    height: 88px;
+    font-family: cursive;
+    color: white;
+}
