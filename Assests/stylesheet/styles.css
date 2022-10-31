@@ -15,6 +15,7 @@
 .navbar {
         margin: auto;
         transform: translateY(-50px); 
+        -webkit-transform: ranslateY(-50px); 
         width: 100%;
           
     }
@@ -30,6 +31,7 @@
         padding: 50px;
         position: fixed;
         transform: translate(0px,-467px);
+        -webkit-transform: translate(0px,-467px);
 
     }
     
@@ -71,6 +73,7 @@
         font-size: larger;
         background-color: white;
         transform: translateY(50px);
+        -webkit-transform: translateY(50px);
         float: center;
         border: 1px solid black; 
         text-align: center;
