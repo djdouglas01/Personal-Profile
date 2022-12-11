@@ -1,16 +1,16 @@
 
 .paragraph {
         height: 100%;
-        width: 500px;
+        width: 700px;
         margin: auto;
         list-style: none;
         padding: 10px;
-        font-family: cursive;
-        font-size: larger;
-        background-color: white;
-        border: 1px solid black;
+        font-family: fantasy;
+        font-size: 15pt;
+        background-color: rgb(229, 228, 226);
         border-radius: 10px;
-
+        float: right;
+        transform: translate(-100px,0px);
     }
 
 .navbar {
@@ -18,36 +18,19 @@
         transform: translateY(-50px); 
         -webkit-transform: tanslateY(-50px); 
         width: 100%;
-          
+        background-color: rgb(229, 228, 226);
+       
     }
 
 .body {
-        background-color: lightblue;
-    }
-
-.pic {
-        height: 400px;
-        width: 400px;
-        float: left;
-        padding: 50px;
-        position: absolute;
-        transform: translate(0px,-403px);
-        -webkit-transform: translate(0px, -403px);
-
+        background-color: rgb(229, 228, 226);
     }
     
-.title {
-        font-size: 50pt;
-        padding-left: 20px;
-        background-color: white;
-        height: 88px;
-        font-family: cursive;
-        color: white;
-    }
+
     
 .nav-pills .nav-link.active {
-        background-color: lightblue;
-        color: black;
+        background-color: lightgrey;
+        color: rgb(101, 115, 131);
   
     }
 
@@ -70,32 +53,23 @@
         margin: auto;
         list-style: none;
         padding: 10px;
-        font-family: cursive;
+        font-family: fantasy;
         font-size: larger;
-        background-color: white;
+        background-color: rgb(229, 228, 226);
         transform: translateY(50px);
         -webkit-transform: translateY(50px);
         float: center;
-        border: 1px solid black; 
         text-align: center;
         border-radius: 10px;
 }
 
-.heading { 
-    font-size: 50pt;
-        padding-left: 20px;
-        height: 88px;
-        font-family: cursive;
-        color: black; 
-        text-align: center;
-}
+
 .header {
-    font-size: 50pt;
-    padding-left: 20px;
-    background-color: white;
+    font-size: 35pt;
+    background-color: lightgrey;
     height: 88px;
-    font-family: cursive;
-    color: white;
+    font-family: fantasy;
+    color: rgb(229, 228, 226);
 }
 
 .textarea {
@@ -104,6 +78,34 @@
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 1px solid black;
+ 
     
+}
+.carousel {
+    height: 600px;
+    width: 600px;
+    float: left;
+    padding: 20px;
+    transform: translate(0,-50px);
+    -webkit-transform: translate(0px,-50px);
+    position: absolute;
+    
+}
+
+.pic {
+    height: 600px;
+    width: 600px;
+    float: right;
+    transform: translateX(-200px);
+    -webkit-transform: translateX(-200px);
+    
+}
+
+.heading {
+        transform: translate(350px,130px);
+        position: absolute;
+        z-index: 999;
+        font-size: 100pt;
+        font-family: fantasy;
+        font-weight: bold;
 }
