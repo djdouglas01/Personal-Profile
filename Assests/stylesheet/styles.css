@@ -6,11 +6,13 @@
         list-style: none;
         padding: 5px;
         font-family: fantasy;
-        font-size: 15pt;
+        font-size: 1rem;
         background-color: rgb(229, 228, 226);
         float: right;
-        transform: translate(-100px,0px);
+        justify-content: center;
+        align-items: center;
         max-width: 100%;
+        display: flex;
     }
 
 .navbar {
@@ -36,18 +38,19 @@
     }
 
 .nav-pills a {
-        color:black;
+    color:black;
 
     }
 
-    .footer {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        color: black;
-        text-align: center;
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
       }
+
 .form {
         height: 400px;
         width: 500px;
@@ -111,9 +114,8 @@
         z-index: 999;
         font-size: 4rem;
         font-family: fantasy;
-        font-weight: bold;
-
-     
+        font-weight: bold; 
+         
 }
 
 .heading-background {
@@ -124,11 +126,15 @@
     height: 80vh;
     background-size: 40%;
     background-position: 110% 80%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
 }
 
 @media screen and (min-width: 768px) {
         .heading {
             font-size: 6rem;
+        }
+
+        .paragraph {
+            font-size: 1rem;
         }
 }
