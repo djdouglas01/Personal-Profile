@@ -9,11 +9,15 @@
         font-size: 1rem;
         background-color: rgb(229, 228, 226);
         float: right;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
         max-width: 100%;
         display: flex;
-    }
+        }
+
+.nav-link.active {
+        display: inline-block;
+}
 
 .navbar {
         margin: auto;
@@ -43,12 +47,16 @@
     }
 
 .footer {
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: black;
     text-align: center;
+    margin-top: -50px;
+    margin-bottom: auto;
+    display: inline-block;
+    height: 50px;
     }
 
 .form {
@@ -74,6 +82,7 @@
     height: 88px;
     font-family: fantasy;
     color: rgb(229, 228, 226);
+
 }
 
 #enterMessage {
@@ -87,12 +96,12 @@
     
 }
 .carousel {
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
     float: left;
-    padding: 25px;
-    transform: translate(0,-50px);
-    -webkit-transform: translate(0px,-50px);
+    padding: 10px;
+    transform: translate(0,-25px);
+    -webkit-transform: translate(0px,-25px);
     position: relative;
     max-width: 100%;
     z-index: 10;
@@ -100,8 +109,8 @@
 }
 
 .pic {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     float: right;
     transform: translateX(-200px);
     -webkit-transform: translateX(-200px);
@@ -115,6 +124,7 @@
         font-size: 4rem;
         font-family: fantasy;
         font-weight: bold; 
+
          
 }
 
@@ -124,19 +134,66 @@
     justify-content: center;
     align-items: center;
     height: 80vh;
-    background-size: 40%;
-    background-position: 110% 80%;
+    background-size: 35%;
+    background-position: 90% 60%;
     background-repeat: no-repeat;    
 }
 
-
-
 @media screen and (min-width: 768px) {
         .heading {
-            font-size: 6rem;
+            font-size: 4rem;
+            text-align: center;
         }
 
         .paragraph {
             font-size: 1rem;
         }
+}
+
+@media screen and (min-width: 0px) {
+        .heading {
+            font-size: 2rem;
+        }
+}
+
+@media screen and (min-width: 360px) {
+        .heading {
+            font-size: 3rem;
+        }
+
+}
+
+@media screen and (min-width: 850px) {
+        .heading {
+            font-size: 4rem;
+        }
+        .paragraph {
+            font-size: 1rem;
+        }
+}
+
+@media screen and (min-width: 1000px) {
+        .heading {
+            font-size: 5rem;
+            transform: translate(0, -75px);
+            -webkit-transform: translate(0, -75px);
+        }
+        .paragraph {
+            font-size: 1.2rem;
+        }
+
+
+    }
+@media screen and (min-width: 1300px) {
+    .heading {
+        font-size: 5rem;
+        transform: translate(0, -75px);
+        -webkit-transform: translate(0, -75px);
+    }
+    .paragraph {
+        font-size: 1.5rem;
+        transform: translate(0, -75px);
+        -webkit-transform: translate(0, -75px);
+    }
+
 }
