@@ -10,7 +10,7 @@ li {
     list-style: none;
     padding: 5px;
     font-family: fantasy;
-    font-size: 1rem;
+    font-size: 1.3rem;
     background-color: rgb(229, 228, 226);
     justify-content: right;
     max-width: 100%;
@@ -24,7 +24,6 @@ li {
 
 .body {
     background-color: rgb(229, 228, 226);
-    font-size: 1.3rem;
 }
 
 
@@ -133,7 +132,7 @@ li {
     }
 
     .paragraph {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -156,7 +155,7 @@ li {
     }
 
     .paragraph {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -171,7 +170,7 @@ li {
     }
 
     .paragraph {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
 
@@ -188,7 +187,7 @@ li {
     }
 
     .paragraph {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         transform: translate(0, -75px);
         -webkit-transform: translate(0, -75px);
         -moz-transform: translate(0, -75px);
