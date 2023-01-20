@@ -24,6 +24,7 @@ li {
 
 .body {
     background-color: rgb(229, 228, 226);
+    font-size: 1.3rem;
 }
 
 
@@ -155,7 +156,7 @@ li {
     }
 
     .paragraph {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
 
