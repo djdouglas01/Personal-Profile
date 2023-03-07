@@ -3,6 +3,10 @@ li {
     font-family: fantasy;
 }
 
+.list {
+    list-style: none;
+}
+
 .paragraph {
     height: 700px;
     width: 700px;
@@ -123,6 +127,14 @@ li {
     background-size: 35%;
     background-position: 90% 60%;
     background-repeat: no-repeat;
+}
+
+li {
+    padding: 5px;
+}
+
+.title {
+    font-size: 28pt;
 }
 
 @media screen and (min-width: 768px) {
