@@ -1,25 +1,18 @@
 p,
 li {
     font-family: fantasy;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
 }
 
 .list {
     list-style: none;
 }
 
-.paragraph {
-    height: 700px;
-    width: 700px;
-    margin: auto;
-    list-style: none;
-    padding: 5px;
-    font-family: fantasy;
-    font-size: 1.3rem;
-    background-color: rgb(229, 228, 226);
-    justify-content: right;
-    max-width: 100%;
-    display: flex;
-}
 
 .nav-link.active {
     display: inline-block;
@@ -41,6 +34,19 @@ li {
 .nav-pills a {
     color: black;
 
+}
+
+.btn-secondary {
+    font-family: fantasy;
+    color: black;
+    border: none;
+    background-color: rgb(229, 228, 226);
+    font-size: 20pt;
+}
+
+.dropdown-item.active {
+    background-color: lightgrey;
+    color: rgb(101, 115, 131);
 }
 
 .footer {
@@ -143,9 +149,6 @@ li {
         text-align: center;
     }
 
-    .paragraph {
-        font-size: 1.3rem;
-    }
 }
 
 @media screen and (min-width: 0px) {
@@ -166,9 +169,6 @@ li {
         font-size: 4rem;
     }
 
-    .paragraph {
-        font-size: 1.3rem;
-    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -179,10 +179,6 @@ li {
         -moz-transform: translate(0, -75px);
         -o-transform: translate(0, -75px);
         -ms-transform: translate(0, -75px);
-    }
-
-    .paragraph {
-        font-size: 1.3rem;
     }
 
 
@@ -198,13 +194,5 @@ li {
         -o-transform: translate(0, -75px);
     }
 
-    .paragraph {
-        font-size: 1.3rem;
-        transform: translate(0, -75px);
-        -webkit-transform: translate(0, -75px);
-        -moz-transform: translate(0, -75px);
-        -ms-transform: translate(0, -75px);
-        -o-transform: translate(0, -75px);
-    }
 
 }
