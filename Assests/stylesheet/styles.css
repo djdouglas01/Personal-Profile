@@ -1,12 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
 p,
 li {
-    font-family: fantasy;
+    font-family: 'Work Sans', sans-serif;
     list-style: none;
 }
 
 h1 {
     text-align: center;
-    font-family: fantasy;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .list {
@@ -34,10 +41,11 @@ h1 {
 .nav-pills a {
     color: black;
 
+
 }
 
 .btn-secondary {
-    font-family: fantasy;
+    font-family: 'Work Sans', sans-serif;
     color: black;
     border: none;
     background-color: rgb(229, 228, 226);
@@ -67,7 +75,7 @@ h1 {
     margin: auto;
     list-style: none;
     padding: 10px;
-    font-family: fantasy;
+    font-family: 'Work Sans', sans-serif;
     font-size: larger;
     background-color: rgb(229, 228, 226);
     position: relative;
@@ -80,7 +88,7 @@ h1 {
     font-size: 35pt;
     background-color: lightgrey;
     height: 88px;
-    font-family: fantasy;
+    font-family: 'Work Sans', sans-serif;
     color: rgb(229, 228, 226);
 
 }
@@ -118,7 +126,7 @@ h1 {
 
     z-index: 999;
     font-size: 4rem;
-    font-family: fantasy;
+    font-family: 'Work Sans', sans-serif;
     font-weight: bold;
 
 
@@ -141,6 +149,12 @@ li {
 
 .title {
     font-size: 28pt;
+}
+
+.quiz {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
 }
 
 @media screen and (min-width: 768px) {
