@@ -179,21 +179,26 @@ li {
 
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
     .heading {
         font-size: 4rem;
+        transform: translate(0, -70px);
+        -webkit-transform: translate(0, -70px);
+        -moz-transform: translate(0, -70px);
+        -o-transform: translate(0, -70px);
+        -ms-transform: translate(0, -70px);
     }
 
 }
 
 @media screen and (min-width: 1000px) {
     .heading {
-        font-size: 5rem;
-        transform: translate(0, -75px);
-        -webkit-transform: translate(0, -75px);
-        -moz-transform: translate(0, -75px);
-        -o-transform: translate(0, -75px);
-        -ms-transform: translate(0, -75px);
+        font-size: 4rem;
+        transform: translate(0, -80px);
+        -webkit-transform: translate(0, -80px);
+        -moz-transform: translate(0, -80px);
+        -o-transform: translate(0, -80px);
+        -ms-transform: translate(0, -80px);
     }
 
 
@@ -201,12 +206,12 @@ li {
 
 @media screen and (min-width: 1300px) {
     .heading {
-        font-size: 5rem;
-        transform: translate(0, -75px);
-        -webkit-transform: translate(0, -75px);
-        -moz-transform: translate(0, -75px);
-        -ms-transform: translate(0, -75px);
-        -o-transform: translate(0, -75px);
+        font-size: 4rem;
+        transform: translate(0, -60px);
+        -webkit-transform: translate(0, -60px);
+        -moz-transform: translate(0, -60px);
+        -ms-transform: translate(0, -60px);
+        -o-transform: translate(0, -60px);
     }
 
 
