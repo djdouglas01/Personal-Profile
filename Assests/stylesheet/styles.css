@@ -4,6 +4,7 @@ p,
 li {
     font-family: 'Work Sans', sans-serif;
     list-style: none;
+    z-index: 99;
 }
 
 h1 {
@@ -11,10 +12,6 @@ h1 {
     font-family: 'Work Sans', sans-serif;
 }
 
-h5 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
 .list {
     list-style: none;
@@ -31,6 +28,19 @@ h5 {
     background-color: rgb(229, 228, 226);
 }
 
+.body2 {
+    width: 100%;
+    height: 600px;
+}
+
+.figcaption {
+    text-align: center;
+    display: inline-grid;
+}
+
+.skills {
+    display: flex;
+}
 
 
 .nav-pills .nav-link.active {
@@ -59,6 +69,18 @@ h5 {
 }
 
 .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: auto;
+    display: inline-block;
+    height: 50px;
+}
+
+.footer_projects {
     left: 0;
     bottom: 0;
     width: 100%;
