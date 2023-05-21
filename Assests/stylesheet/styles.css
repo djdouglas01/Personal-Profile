@@ -180,6 +180,18 @@ li {
     margin-left: 20px;
 }
 
+.email {
+    font-size:24px;
+}
+
+.intouch {
+    text-align: center;
+}
+
+.col {
+    padding: 20px;
+}
+
 @media screen and (min-width: 768px) {
     .heading {
         font-size: 3rem;
