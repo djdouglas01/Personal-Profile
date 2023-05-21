@@ -39,7 +39,7 @@ h1 {
 }
 
 .skills {
-    display: flex;
+    display: inline-block;
 }
 
 
