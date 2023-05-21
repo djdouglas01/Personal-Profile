@@ -92,6 +92,7 @@ h1 {
     height: 50px;
 }
 
+
 .form {
     padding: 20px;
     margin: 20px;
@@ -177,7 +178,8 @@ li {
 }
 
 .intouch {
-    text-align: center;
+    text-align: left;
+    padding-left: 23px;
 }
 
 
