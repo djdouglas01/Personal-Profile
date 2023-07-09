@@ -270,7 +270,7 @@ li {
 
 @media screen and (max-width: 768px) {
     .container {
-        height: 2000px; /* Set the height to 100% of the viewport height */
+        height: 3000px; /* Set the height to 100% of the viewport height */
 
         text-align: center;
         
