@@ -278,13 +278,13 @@ li {
     }
 
     .carousel {
-        height: 400px;
-        width: 400px;
+        height: 40vh;
+        width: 40vh;
         position: relative;
         max-width: 100%;
         z-index: 10;
         margin-top: 50px;
-        margin-right: 200px;
+        margin-right: 150px;
     }
     
     .container2 {
@@ -312,7 +312,7 @@ li {
     .list {
         list-style: none;
         text-align: center;
-        font-size: 10pt;
+        font-size: 17pt;
         justify-content: center;
         align-items: center;
         margin-right: 200px;
