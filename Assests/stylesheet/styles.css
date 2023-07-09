@@ -274,6 +274,7 @@ li {
         height: 3000px; 
         justify-content: center;
         align-items: center;
+        text-align: center;
 
         
     }
@@ -294,6 +295,9 @@ li {
         height: 2000px;
         margin-top: 300px;
         width: 75vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
     }
     
@@ -303,18 +307,25 @@ li {
         width: 75vw;
         justify-content: center;
         align-items: center;
+        text-align: center;
 
 
     }
     
     .container4 {
         height: 2000px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
     }
     
     .container5 {
         height: 1000px;
         width: 75vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
     
     }
@@ -330,5 +341,8 @@ li {
     .quiz {
         height: 35vh;
         width: 35vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
