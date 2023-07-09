@@ -27,8 +27,8 @@ h1 {
 
 .body {
     background-color: rgb(229, 228, 226);
-    max-height: fit-content;
-    max-width: fit-content;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -274,9 +274,8 @@ li {
         height: 3000px; 
         justify-content: center;
         align-items: center;
-        text-align: center;
-
-        
+        text-align: center;  
+        margin-right: 100px;  
     }
 
     .carousel {
@@ -289,6 +288,7 @@ li {
         justify-content: center;
         align-items: center;
         width: 75vw;
+        margin-right: 100px;  
     }
     
     .container2 {
@@ -298,7 +298,7 @@ li {
         justify-content: center;
         align-items: center;
         text-align: center;
-
+        margin-right: 100px;  
     }
     
     .container3 {
@@ -308,8 +308,7 @@ li {
         justify-content: center;
         align-items: center;
         text-align: center;
-
-
+        margin-right: 100px;  
     }
     
     .container4 {
@@ -317,7 +316,8 @@ li {
         justify-content: center;
         align-items: center;
         text-align: center;
-
+        width: 75vw;
+        margin-right: 100px;  
     }
     
     .container5 {
@@ -326,8 +326,7 @@ li {
         justify-content: center;
         align-items: center;
         text-align: center;
-
-    
+        margin-right: 100px;  
     }
     .list {
         list-style: none;
@@ -336,6 +335,7 @@ li {
         justify-content: center;
         align-items: center;
         width: 75vw;
+        margin-right: 100px;  
     }
 
     .quiz {
