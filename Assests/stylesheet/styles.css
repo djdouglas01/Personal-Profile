@@ -271,11 +271,12 @@ li {
 
 @media screen and (max-width: 768px) {
     .container {
-        height: 3000px; 
+        height: 4000px; 
         justify-content: center;
         align-items: center;
         text-align: center;  
-        margin-right: 100px;  
+        margin-right: 100px; 
+        width: 75vw; 
     }
 
     .carousel {
