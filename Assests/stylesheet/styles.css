@@ -271,33 +271,28 @@ li {
 @media screen and (max-width: 768px) {
     .container {
         height: 100%; /* Set the height to 100% of the viewport height */
-        width: 100%;
         margin-top: 100px;
         
     }
     
     .container2 {
         height: 100%;
-        width: 100%;
         margin-top: 100px;
     }
     
     .container3 {
         height: 3000px;
-        width: 100%;
         border: 2px solid black;
         margin-top: 100px;
     }
     
     .container4 {
         height: 2000px;
-        width: 100%;
         margin-top: 100px;
     }
     
     .container5 {
         height: 100%;
-        width: 100%;
         margin-top: 100px;
     
     }
