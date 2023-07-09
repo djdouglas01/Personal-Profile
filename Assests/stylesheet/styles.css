@@ -27,9 +27,8 @@ h1 {
 
 .body {
     background-color: rgb(229, 228, 226);
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -107,8 +106,8 @@ h1 {
 }
 
 .carousel {
-    height: 70vh;
-    width: 70vh;
+    height: 100vh;
+    width: 100vh;
     position: relative;
     max-width: 100%;
     z-index: 10;
@@ -327,6 +326,7 @@ li {
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-right: 100px;  
     }
     .list {
         list-style: none;
@@ -335,7 +335,7 @@ li {
         justify-content: center;
         align-items: center;
         width: 75vw;
-        margin-right: 100px;  
+        margin-right: 200px;  
     }
 
     .quiz {
@@ -345,4 +345,24 @@ li {
         align-items: center;
         text-align: center;
     }
+
+    .heading {
+        z-index: 999;
+        font-size: 2rem;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    .heading-background {
+        background-image: url(../images/Devin3.jpeg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        background-size: 55%;
+        background-position: 100% 60%;
+        background-repeat: no-repeat;
+        z-index: 99;
+    }
+    
 }
