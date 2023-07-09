@@ -269,34 +269,36 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-    .section1 {
-        height: 100vh; /* Set the height to 100% of the viewport height */
-        width: 100vh;
+    .container {
+        height: 100%; /* Set the height to 100% of the viewport height */
+        width: 100%;
+        margin-top: 100px;
         
     }
     
-    .section2 {
-        height: 100vh;
-        width: 100vh;
-        
-    
+    .container2 {
+        height: 100%;
+        width: 100%;
+        margin-top: 100px;
     }
     
-    .section3 {
-        height: 100vh;
-        width: 100vh;
+    .container3 {
+        height: 3000px;
+        width: 100%;
         border: 2px solid black;
-    
+        margin-top: 100px;
     }
     
-    .section4 {
-        height: 100vh;
-        width: 100vh;
+    .container4 {
+        height: 2000px;
+        width: 100%;
+        margin-top: 100px;
     }
     
-    .section5 {
-        height: 100vh;
-        width: 100vh;
+    .container5 {
+        height: 100%;
+        width: 100%;
+        margin-top: 100px;
     
     }
 }
