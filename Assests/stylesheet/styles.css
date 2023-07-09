@@ -201,7 +201,7 @@ li {
         justify-content: center;
         align-items: center;
         text-align: center;  
-        width: 100%;
+        width: 400px;
 
         
     }
@@ -267,9 +267,8 @@ li {
         font-size: 17pt;
         justify-content: center;
         align-items: center;
-        
         margin-right: 200px; 
-        width: 100%; 
+        width: 400px;
         
     }
 
