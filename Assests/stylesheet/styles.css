@@ -27,7 +27,8 @@ h1 {
 
 .body {
     background-color: rgb(229, 228, 226);
-
+    max-height: fit-content;
+    max-width: fit-content;
 }
 
 
@@ -287,20 +288,25 @@ li {
         margin-right: 150px;
         justify-content: center;
         align-items: center;
-        width: 100vw;
+        width: 75vw;
     }
     
     .container2 {
         height: 2000px;
         margin-top: 300px;
-        width: 100vw;
+        width: 75vw;
+        margin-right: 300px;
 
     }
     
     .container3 {
         height: 3000px;
         border: 2px solid black;
-        width: 100vw;
+        width: 75vw;
+        margin-right: 300px;
+        justify-content: center;
+        align-items: center;
+
 
     }
     
@@ -311,7 +317,7 @@ li {
     
     .container5 {
         height: 1000px;
-        width: 100vw;
+        width: 75vw;
 
     
     }
@@ -322,6 +328,11 @@ li {
         justify-content: center;
         align-items: center;
         margin-right: 150px;
-        width: 100vw;
+        width: 75vw;
+    }
+
+    .quiz {
+        height: 35vh;
+        width: 35vh;
     }
 }
