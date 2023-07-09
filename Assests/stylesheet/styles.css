@@ -269,32 +269,32 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    .section1 {
         height: 100vh; /* Set the height to 100% of the viewport height */
         width: 100vh;
         
     }
     
-    .container2 {
+    .section2 {
         height: 100vh;
         width: 100vh;
         
     
     }
     
-    .container3 {
+    .section3 {
         height: 100vh;
         width: 100vh;
         border: 2px solid black;
     
     }
     
-    .container4 {
+    .section4 {
         height: 100vh;
         width: 100vh;
     }
     
-    .container5 {
+    .section5 {
         height: 100vh;
         width: 100vh;
     
