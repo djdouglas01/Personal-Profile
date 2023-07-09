@@ -12,6 +12,10 @@ h1 {
     font-family: 'Work Sans', sans-serif;
 }
 
+hr {
+    border-top: 3px solid black;
+}
+
 
 .list {
     list-style: none;
