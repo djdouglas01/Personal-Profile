@@ -271,8 +271,18 @@ li {
 @media screen and (max-width: 768px) {
     .container {
         height: 3000px; 
-        text-align: center;
+        justify-content: center;
+        align-items: center;
         
+    }
+
+    .carousel {
+        height: 400px;
+        width: 400px;
+        position: relative;
+        max-width: 100%;
+        z-index: 10;
+        margin-top: 50px;
     }
     
     .container2 {
@@ -300,6 +310,8 @@ li {
     .list {
         list-style: none;
         text-align: center;
-        font-size: 17pt;
+        font-size: 10pt;
+        justify-content: center;
+        align-items: center;
     }
 }
