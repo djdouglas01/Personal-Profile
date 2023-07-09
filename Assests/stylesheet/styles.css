@@ -270,30 +270,30 @@ li {
 
 @media screen and (max-width: 768px) {
     .container {
-        height: 100%; /* Set the height to 100% of the viewport height */
-        margin-top: 100px;
+        height: 1500px; /* Set the height to 100% of the viewport height */
+        margin: 50px;
         
     }
     
     .container2 {
-        height: 100%;
-        margin-top: 100px;
+        height: 1000px;
+        margin: 50px;
     }
     
     .container3 {
         height: 3000px;
         border: 2px solid black;
-        margin-top: 100px;
+        margin: 50px;
     }
     
     .container4 {
         height: 2000px;
-        margin-top: 100px;
+        margin: 50px;
     }
     
     .container5 {
-        height: 100%;
-        margin-top: 100px;
+        height: 1000px;
+        margin: 50px;
     
     }
 }
