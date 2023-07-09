@@ -96,6 +96,7 @@ h1 {
 .form {
     padding: 20px;
     margin: 20px;
+    text-align: center;
 }
 
 
@@ -178,7 +179,7 @@ li {
 }
 
 .intouch {
-    text-align: left;
+    text-align: center;
     padding-left: 23px;
 }
 
