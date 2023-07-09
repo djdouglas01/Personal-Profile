@@ -108,16 +108,6 @@ h1 {
 
 }
 
-#enterMessage {
-    font-size: small;
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    position: relative;
-
-
-}
 
 .carousel {
     height: 500px;
@@ -129,13 +119,6 @@ h1 {
 
 }
 
-.pic {
-    height: 600px;
-    width: 600px;
-    float: right;
-    max-width: 100%;
-
-}
 
 .heading {
 
@@ -184,9 +167,9 @@ li {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .heading {
-        font-size: 3rem;
+        font-size: 1rem;
         text-align: center;
     }
 
