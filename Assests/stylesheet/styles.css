@@ -365,5 +365,10 @@ li {
         background-repeat: no-repeat;
         z-index: 99;
     }
+
+    .aboutme {
+        margin-top: 200px;
+    }
+    
     
 }
