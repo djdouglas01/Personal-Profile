@@ -274,7 +274,7 @@ li {
         height: 3000px; 
         justify-content: center;
         align-items: center;
-        margin-right: 300px;
+
         
     }
 
@@ -285,7 +285,6 @@ li {
         max-width: 100%;
         z-index: 10;
         margin-top: 50px;
-        margin-right: 150px;
         justify-content: center;
         align-items: center;
         width: 75vw;
@@ -295,7 +294,6 @@ li {
         height: 2000px;
         margin-top: 300px;
         width: 75vw;
-        margin-right: 300px;
 
     }
     
@@ -303,7 +301,6 @@ li {
         height: 3000px;
         border: 2px solid black;
         width: 75vw;
-        margin-right: 300px;
         justify-content: center;
         align-items: center;
 
@@ -327,7 +324,6 @@ li {
         font-size: 17pt;
         justify-content: center;
         align-items: center;
-        margin-right: 150px;
         width: 75vw;
     }
 
