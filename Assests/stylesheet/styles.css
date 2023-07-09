@@ -282,7 +282,8 @@ li {
     }
     
     .container3 {
-        height: 2000px; /* Set the height to 100% of the viewport height */
+        height: 2500px; /* Set the height to 100% of the viewport height */
+        width: 400px
         scroll-snap-align: start; /* Snap to the start of each section */
         border: 2px solid black;
     
