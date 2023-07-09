@@ -12,11 +12,6 @@ h1 {
     font-family: 'Work Sans', sans-serif;
 }
 
-hr {
-    border-top: 3px solid black;
-}
-
-
 .list {
     list-style: none;
     text-align: center;
@@ -30,16 +25,22 @@ hr {
 
 .body {
     background-color: rgb(229, 228, 226);
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scroll-snap-type: y mandatory; /* Enable smooth scrolling */
 }
 
-.body2 {
-    width: 100%;
-    height: 600px;
-}
 
 .figcaption {
     text-align: center;
     display: inline-grid;
+
+}
+
+.image {
+    justify-content: center;
+    width: 100%;
 }
 
 .skills {
@@ -105,8 +106,8 @@ hr {
 
 
 .carousel {
-    height: 500px;
-    width: 500px;
+    height: 100vh;
+    width: 100vh;
     padding: 10px;
     position: relative;
     max-width: 100%;
@@ -146,8 +147,8 @@ li {
 }
 
 .quiz {
-    height: 300px;
-    width: 300px;
+    height: 50vh;
+    width: 50vh;
     margin-left: 20px;
 }
 
@@ -162,28 +163,34 @@ li {
 }
 
 .container {
-    margin: 50px;
-    height: 700px;
+    margin: 100px;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    scroll-snap-align: start; /* Snap to the start of each section */
+    
 }
 
 .container2 {
-    margin: 50px;
-    height: 700px;
+    margin: 100px;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    scroll-snap-align: start; /* Snap to the start of each section */
 }
 
 .container3 {
-    margin: 50px;
-    height: 1100px;
+    margin: 100px;
+    height: 1100px; /* Set the height to 100% of the viewport height */
+    scroll-snap-align: start; /* Snap to the start of each section */
 }
 
 .container4 {
-    margin: 50px;
-    height: 900px;
+    margin: 100px;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    scroll-snap-align: start; /* Snap to the start of each section */
 }
 
 .container5 {
-    margin: 50px;
-    height: 500px;
+    margin: 100px;
+    height: 500px; /* Set the height to 100% of the viewport height */
+    scroll-snap-align: start; /* Snap to the start of each section */
 }
 
 
