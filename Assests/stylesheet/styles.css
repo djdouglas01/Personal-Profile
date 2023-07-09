@@ -276,7 +276,7 @@ li {
         align-items: center;
         text-align: center;  
         margin-right: 100px; 
-        width: 75vw; 
+        
     }
 
     .carousel {
@@ -288,14 +288,14 @@ li {
         margin-top: 50px;
         justify-content: center;
         align-items: center;
-        width: 75vw;
+      
         margin-right: 100px;  
     }
     
     .container2 {
         height: 3000px;
         margin-top: 300px;
-        width: 75vw;
+      
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -305,7 +305,7 @@ li {
     .container3 {
         height: 3000px;
         border: 2px solid black;
-        width: 75vw;
+      
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -317,13 +317,13 @@ li {
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 75vw;
+     
         margin-right: 100px;  
     }
     
     .container5 {
         height: 1000px;
-        width: 75vw;
+       
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -335,7 +335,7 @@ li {
         font-size: 17pt;
         justify-content: center;
         align-items: center;
-        width: 75vw;
+        
         margin-right: 200px;  
     }
 
