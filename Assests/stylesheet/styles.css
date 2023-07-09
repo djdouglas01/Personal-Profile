@@ -271,19 +271,21 @@ li {
 @media screen and (max-width: 768px) {
     .container {
         height: 100vh; /* Set the height to 100% of the viewport height */
+        width: 100vh;
         scroll-snap-align: start; /* Snap to the start of each section */
         
     }
     
     .container2 {
         height: 100vh;
+        width: 100vh;
         scroll-snap-align: start; /* Snap to the start of each section */
     
     }
     
     .container3 {
         height: 100vh;
-        width: 400px;
+        width: 100vh;
         scroll-snap-align: start; /* Snap to the start of each section */
         border: 2px solid black;
     
@@ -291,12 +293,14 @@ li {
     
     .container4 {
         height: 100vh;
+        width: 100vh;
         scroll-snap-align: start; /* Snap to the start of each section */
     
     }
     
     .container5 {
         height: 100vh;
+        width: 100vh;
         scroll-snap-align: start; /* Snap to the start of each section */
     
     }
