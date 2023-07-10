@@ -197,7 +197,7 @@ li {
 
 @media screen and (max-width: 768px) {
     .container {
-        height: 2200px; 
+        height: 1500px; 
         justify-content: center;
         align-items: center;
         text-align: center;  
@@ -301,7 +301,6 @@ li {
         background-repeat: no-repeat;
         z-index: 99;
     }
-
     
     .margin {
         width: 100%;
