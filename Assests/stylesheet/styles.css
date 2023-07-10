@@ -197,7 +197,7 @@ li {
 
 @media screen and (max-width: 768px) {
     .container {
-        height: 4000px; 
+        height: 1800px; 
         justify-content: center;
         align-items: center;
         text-align: center;  
@@ -222,7 +222,7 @@ li {
     }
     
     .container2 {
-        height: 3000px;
+        height: 1000px;
         margin-top: 300px;
       
         justify-content: center;
@@ -234,7 +234,7 @@ li {
     }
     
     .container3 {
-        height: 3000px;
+        height: 2000px;
         width: 60vw;
         border: 2px solid black;
         justify-content: center;
@@ -246,7 +246,7 @@ li {
     }
     
     .container4 {
-        height: 2000px;
+        height: 1200px;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -256,7 +256,7 @@ li {
     }
     
     .container5 {
-        height: 1000px;
+        height: 500px;
        
         justify-content: center;
         align-items: center;
