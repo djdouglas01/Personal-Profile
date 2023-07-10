@@ -268,7 +268,7 @@ li {
     .list {
         list-style: none;
         text-align: center;
-        font-size: 17pt;
+        font-size: 15pt;
         justify-content: center;
         align-items: center;
     }
@@ -304,7 +304,7 @@ li {
 
     
     .margin {
-        width: 60vw;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
