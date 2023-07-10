@@ -201,7 +201,6 @@ li {
         justify-content: center;
         align-items: center;
         text-align: center;  
-        width: 400px;
         margin: 0;
         padding: 0;
 
@@ -272,9 +271,6 @@ li {
         font-size: 17pt;
         justify-content: center;
         align-items: center;
-        margin-right: 200px; 
-        width: 400px;
-        
     }
 
     .quiz {
@@ -306,10 +302,6 @@ li {
         z-index: 99;
     }
 
-    .aboutme {
-        margin-top: 200px;
-        width: 400px;
-    }
     
     .margin {
         width: 60vw;
