@@ -119,11 +119,11 @@ h1 {
     font-size: 4rem;
     font-family: 'Work Sans', sans-serif;
     font-weight: bold;
-    transform: translate(0px, -100px);
-    -moz-transform: translate(0px, -100px);
-    -o-transform: translate(0px, -100px);
-    -ms-transform: translate(0px, -100px);
-    -webkit-transform: translate(0px, -100px);
+    transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
 }
 
 .heading-background {
