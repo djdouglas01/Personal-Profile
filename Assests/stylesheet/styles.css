@@ -1,22 +1,37 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
 
+
 p,
 li {
-    font-family: 'Work Sans', sans-serif;
+    font-family: Advent Pro;
     list-style: none;
     z-index: 99;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Work Sans', sans-serif;
+    font-family: Advent Pro;
     margin-top: 30px;
+    font-size: 50pt;
+    color: darkgray;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: Advent Pro;
 }
 
 .list {
     list-style: none;
     text-align: center;
-    font-size: 17pt;
+    font-size: 19pt;
+    padding: 30px;
+}
+
+.margin {
+    background-color: white;
+    border-radius: 50px;
+    height: 650px;
 }
 
 
@@ -35,6 +50,8 @@ h1 {
 .figcaption {
     text-align: center;
     display: inline-grid;
+    font-family: Advent Pro;
+    font-size: 15pt;
 
 }
 
@@ -67,7 +84,7 @@ h1 {
 }
 
 .btn-secondary {
-    font-family: 'Work Sans', sans-serif;
+    font-family: Advent Pro;
     color: black;
     border: none;
     background-color: rgb(229, 228, 226);
@@ -101,7 +118,7 @@ h1 {
     font-size: 35pt;
     background-color: lightgrey;
     height: 88px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: Advent Pro;
     color: rgb(229, 228, 226);
 }
 
@@ -116,14 +133,14 @@ h1 {
 
 .heading {
     z-index: 999;
-    font-size: 4rem;
-    font-family: 'Work Sans', sans-serif;
+    font-size: 7rem;
+    font-family: Advent Pro;
     font-weight: bold;
-    transform: translateY(-100px);
-    -moz-transform: translateY(-100px);
-    -o-transform: translateY(-100px);
-    -ms-transform: translateY(-100px);
-    -webkit-transform: translateY(-100px);
+    transform: translateY(-120px);
+    -moz-transform: translateY(-120px);
+    -o-transform: translateY(-120px);
+    -ms-transform: translateY(-120px);
+    -webkit-transform: translateY(-120px);
 }
 
 .heading-background {
@@ -173,9 +190,10 @@ li {
 
 .container3 {
     margin: 100px;
-    height: 1150px; /* Set the height to 100% of the viewport height */
+    height: 1200px; /* Set the height to 100% of the viewport height */
     scroll-snap-align: start; /* Snap to the start of each section */
     border: 2px solid black;
+    font-size: 13pt;
 
 }
 
@@ -289,8 +307,8 @@ li {
 
     .heading {
         z-index: 999;
-        font-size: 2rem;
-        font-family: 'Work Sans', sans-serif;
+        font-size: 4rem;
+        font-family: Advent Pro;
         font-weight: bold;
         
     }
@@ -301,8 +319,8 @@ li {
         justify-content: center;
         align-items: center;
         height: 90vh;
-        background-size: 55%;
-        background-position: 100% 60%;
+        background-size: 70%;
+        background-position: 150% 40%;
         background-repeat: no-repeat;
         z-index: 99;
     }
