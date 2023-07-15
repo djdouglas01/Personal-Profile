@@ -279,13 +279,14 @@ li {
     }
     
     .container5 {
-        height: 500px;
+        height: 300px;
         justify-content: center;
         align-items: center;
         text-align: center;
         margin: 0;
         padding: 0;
         width: 100%;
+        background-color: white;
     }
     .list {
         list-style: none;
