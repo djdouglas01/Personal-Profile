@@ -312,7 +312,7 @@ li {
         padding: 0;
         width: 100%;
         background-color: white;
-        border-radius: 0px;
+        border-radius: 50px;
     }
     .list {
         list-style: none;
