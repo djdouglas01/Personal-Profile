@@ -15,3 +15,4 @@ function scrollToSection(sectionId) {
       scrollToSection(targetSection);
     });
   });
+  

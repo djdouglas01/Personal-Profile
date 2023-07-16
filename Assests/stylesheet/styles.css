@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
 
-
+html {
+    scroll-behavior: smooth;
+}
 p,
 li {
     font-family: Advent Pro;
@@ -32,6 +34,8 @@ h3 {
     background-color: white;
     border-radius: 50px;
     height: 650px;
+    width: 550px;
+    margin-left: 200px;
 }
 
 
@@ -44,6 +48,7 @@ h3 {
     background-color: rgb(229, 228, 226);
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 
@@ -201,6 +206,7 @@ li {
     margin: 100px;
     height: 700px; /* Set the height to 100% of the viewport height */
     scroll-snap-align: start; /* Snap to the start of each section */
+    font-size: 13pt;
 
 }
 
@@ -209,6 +215,7 @@ li {
     height: 250px; /* Set the height to 100% of the viewport height */
     scroll-snap-align: start; /* Snap to the start of each section */
     background-color: white;
+    border-radius: 100px;
 
 }
 
@@ -216,7 +223,26 @@ li {
     margin-top: 50px;
 }
 
-
+.scroll-container {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+  }
+  
+  .scroll-container:before {
+    content: '';
+    display: block;
+    height: 100vh;
+    pointer-events: none;
+  }
+  
+  .scroll-container a {
+    position: sticky;
+    top: 88vh;
+    cursor: pointer;
+    font-size: 20px;
+  }
 
 
 @media screen and (max-width: 768px) {
@@ -264,6 +290,7 @@ li {
         margin: 0;
         padding: 0;
         border: none;
+        border-radius: 50px;
     }
     
     .container4 {
