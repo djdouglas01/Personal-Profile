@@ -176,7 +176,6 @@ li {
 
 .intouch {
     text-align: center;
-    padding-left: 23px;
 }
 
 .container {
@@ -313,6 +312,7 @@ li {
         padding: 0;
         width: 100%;
         background-color: white;
+        border-radius: 0px;
     }
     .list {
         list-style: none;
