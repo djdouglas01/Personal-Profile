@@ -72,7 +72,26 @@ h3 {
 }
 
 .skills {
-    display: block;
+    display: flex;
+    font-size: 30pt;
+    margin: 50px;
+    padding: 50px;
+    padding-left: 0;
+    list-style: none;
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.tech-stack {
+    margin-top: 100px;
+}
+
+.software-skills {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 
