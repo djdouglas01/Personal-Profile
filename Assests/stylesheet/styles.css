@@ -89,7 +89,7 @@ h3 {
 }
 
 .software-skills {
-
+    display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -400,7 +400,6 @@ li {
     }
     
     .software-skills {
-        display: flex;
         margin-right: 20px;
         margin-bottom: 20px;
     }
