@@ -385,4 +385,23 @@ li {
         color: darkgray;
         font-weight: 900;
     }
+
+    .skills {
+        padding-left: 0;
+        list-style: none;
+        font-size: 3rem;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    .tech-stack {
+        margin-top: 100px;
+    }
+    
+    .software-skills {
+        display: flex;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
 }
