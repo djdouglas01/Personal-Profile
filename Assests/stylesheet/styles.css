@@ -8,6 +8,7 @@ li {
     font-family: Advent Pro;
     list-style: none;
     z-index: 99;
+    text-align: center;
 }
 
 h1 {
@@ -21,6 +22,8 @@ h1 {
 
 h3 {
     font-family: Advent Pro;
+    text-align: center;
+    font-weight: 400;
 }
 
 .list {
@@ -86,12 +89,14 @@ h3 {
 
 .tech-stack {
     margin-top: 100px;
+    justify-content: center;
 }
 
 .software-skills {
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 
@@ -403,5 +408,10 @@ li {
     .software-skills {
         margin-right: 20px;
         margin-bottom: 20px;
+    }
+
+    .intouch {
+        text-align: center;
+        margin-top: 50px;
     }
 }
