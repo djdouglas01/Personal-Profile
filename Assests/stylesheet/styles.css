@@ -355,10 +355,10 @@ li {
 
     .heading {
         z-index: 999;
-        font-size: 5rem;
+        font-size: 7rem;
         font-family: Advent Pro;
         font-weight: bold;
-        
+        margin-top: 100px;
     }
 
     .heading-background {
@@ -367,10 +367,11 @@ li {
         justify-content: center;
         align-items: center;
         height: 90vh;
-        background-size: 70%;
-        background-position: 150% 40%;
+        background-size: 100%;
+        background-position: 130px;
         background-repeat: no-repeat;
         z-index: 99;
+        width: 69vh;
     }
     
     .margin {
