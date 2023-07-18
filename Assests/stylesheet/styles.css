@@ -302,7 +302,7 @@ li {
     }
     
     .container3 {
-        height: 1700px;
+        height: 1500px;
         width: 60vw;
         background-color: white;
         justify-content: center;
@@ -312,7 +312,6 @@ li {
         margin: 0;
         padding: 0;
         border: none;
-        border-radius: 50px;
         margin-top: 200px;
     }
     
@@ -336,8 +335,6 @@ li {
         margin: 0;
         padding: 0;
         width: 100%;
-        background-color: white;
-        border-radius: 50px;
     }
     .list {
         list-style: none;
