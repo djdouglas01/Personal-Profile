@@ -18,6 +18,7 @@ h1 {
     font-size: 50pt;
     color: darkgray;
     font-weight: 900;
+    text-decoration: underline;
 }
 
 h3 {
@@ -29,13 +30,11 @@ h3 {
 .list {
     list-style: none;
     text-align: center;
-    font-size: 19pt;
+    font-size: 18pt;
     padding: 30px;
 }
 
 .margin {
-    background-color: white;
-    border-radius: 50px;
     height: 650px;
     width: 550px;
     margin-left: 200px;
@@ -72,6 +71,7 @@ h3 {
 .quiz {
     height: 300px;
     width: 300px;
+    border-radius: 75px;
 }
 
 .skills {
@@ -170,6 +170,7 @@ h3 {
     -o-transform: translateY(-120px);
     -ms-transform: translateY(-120px);
     -webkit-transform: translateY(-120px);
+    text-decoration: none;
 }
 
 .heading-background {
@@ -187,20 +188,16 @@ li {
     padding: 5px;
 }
 
-.title {
-    font-size: 28pt;
-    text-align: center;
-}
 
 
 .email {
-    font-size:24px;
+    font-size: 25pt;
     margin-bottom: 5px;
+    margin-bottom: 5px; 
+    color: black;
+    font-family: Advent Pro;
 }
 
-.intouch {
-    text-align: center;
-}
 
 .container {
     margin: 100px;
@@ -234,12 +231,13 @@ li {
 }
 
 .container5 {
-    margin-top: 200px;
-    height: 250px; /* Set the height to 100% of the viewport height */
+    height: 500px; /* Set the height to 100% of the viewport height */
     scroll-snap-align: start; /* Snap to the start of each section */
-    background-color: white;
-    border-radius: 100px;
-
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
 }
 
 .aboutme {
