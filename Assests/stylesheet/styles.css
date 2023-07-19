@@ -395,7 +395,7 @@ li {
         background-size: 90%;
         background-position: 110% 80%;
         background-repeat: no-repeat;
-        z-index: 99;
+        z-index: 99; 
     }
     
     .margin {
