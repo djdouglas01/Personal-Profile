@@ -370,7 +370,7 @@ li {
 
     .heading {
         z-index: 999;
-        font-size: 8rem;
+        font-size: 10rem;
         font-family: Advent Pro;
         font-weight: bold;
         transform:rotate(-45deg);
@@ -384,8 +384,8 @@ li {
         -o-animation: fadeIn 5s;
         -ms-animation: fadeIn 5s;
         animation: fadeIn 5s;
-        margin-bottom: 200px;
-        margin-right: 200px;
+        margin-bottom: 260px;
+        margin-right: 150px;
     }
 
     .heading-background {
