@@ -11,6 +11,10 @@ li {
     text-align: center;
 }
 
+.full-stack {
+    color: black;
+}
+
 h1 {
     text-align: center;
     font-family: Advent Pro;
@@ -159,10 +163,6 @@ h3 {
     margin-top: 50px;
 }
 
-
-
-
-
 .heading {
     z-index: 999;
     font-size: 12rem;
@@ -194,8 +194,8 @@ h3 {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-size: 50%;
-    background-position: 100% 55%;
+    background-size: 40%;
+    background-position: 80% 20%;
     background-repeat: no-repeat;
 }
 
@@ -373,11 +373,6 @@ li {
         font-size: 10rem;
         font-family: Advent Pro;
         font-weight: bold;
-        transform:rotate(-45deg);
-        -webkit-transform:rotate(-45deg);
-        -ms-transform:rotate(-45deg);
-        -o-transform:rotate(-45deg);
-        -moz-transform:rotate(-45deg);
         animation: fadeIn 5s;
         -webkit-animation: fadeIn 5s;
         -moz-animation: fadeIn 5s;
@@ -386,6 +381,11 @@ li {
         animation: fadeIn 5s;
         margin-bottom: 260px;
         margin-right: 120px;
+        transform: translate(-50px, 90px);
+        -moz-transform: translate(-50px, 90px);
+        -o-transform: translate(-50px, 90px);
+        -webkit-transform: translate(-50px, 90px);
+        -ms-transform: translate(-50px, 90px);
     }
 
     .heading-background {
