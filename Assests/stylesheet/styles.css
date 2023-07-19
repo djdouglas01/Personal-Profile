@@ -384,6 +384,7 @@ li {
         -o-animation: fadeIn 5s;
         -ms-animation: fadeIn 5s;
         animation: fadeIn 5s;
+        margin-bottom: 200px;
     }
 
     .heading-background {
