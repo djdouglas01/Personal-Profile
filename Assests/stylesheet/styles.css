@@ -377,11 +377,11 @@ li {
         -o-animation: fadeIn 5s;
         -ms-animation: fadeIn 5s;
         animation: fadeIn 5s;
-        transform: translate(-90px, -50px);
-        -moz-transform: translate(-90px, -50px);
-        -o-transform: translate(-90px, -50px);
-        -webkit-transform: translate(-90px, -50px);
-        -ms-transform: translate(-90px, -50px);
+        transform: translate(-90px, -30px);
+        -moz-transform: translate(-90px, -30px);
+        -o-transform: translate(-90px, -30px);
+        -webkit-transform: translate(-90px, -30px);
+        -ms-transform: translate(-90px, -30px);
     }
 
     .heading-background {
