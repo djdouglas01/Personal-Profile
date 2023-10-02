@@ -308,7 +308,7 @@ li {
     }
     
     .container2 {
-        height: 850px;
+        height: 400px;
         margin-top: 300px;
         justify-content: center;
         align-items: center;
@@ -363,7 +363,7 @@ li {
     }
 
     .quiz {
-        height: 35vh;
+        height: 23vh;
         width: 35vh;
         justify-content: center;
         align-items: center;
@@ -412,8 +412,6 @@ li {
         padding: 0;
     }
 
-
-
     h1 {
         text-align: center;
         font-family: Advent Pro;
@@ -444,6 +442,20 @@ li {
     .intouch {
         text-align: center;
         padding-top: 20px;
+    }
+
+    .figcaptions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .figcaption {
+        text-align: center;
+        display: inline-grid;
+        font-family: Advent Pro;
+        font-size: 15pt;
+        padding: 10px;
     }
     
 }
