@@ -54,13 +54,18 @@ h3 {
     position: relative;
 }
 
+.figcaptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .figcaption {
     text-align: center;
     display: inline-grid;
     font-family: Advent Pro;
     font-size: 15pt;
-
+    padding: 10px;
 }
 
 .image {
